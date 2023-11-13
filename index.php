@@ -29,6 +29,9 @@ function beSafe($land,$altitude){
         }
 
     }
+    else{
+        return "Pas de montagnes pour proteger";
+    }
     return $count;
 }
 echo "Saisir la largeur du continent: ";
